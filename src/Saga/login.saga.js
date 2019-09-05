@@ -18,4 +18,3 @@ function* requestLogin() {
 export default function* () {
     yield takeLatest(REQUEST_LOGIN, requestLogin)
 };
-

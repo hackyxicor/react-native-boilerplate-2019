@@ -188,6 +188,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-magic-move')
     implementation project(':react-native-screens')
     implementation project(':@react-native-community_netinfo')
     implementation fileTree(dir: "libs", include: ["*.jar"])

@@ -5463,6 +5463,11 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
+i18n-js@3.0.11:
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/i18n-js/-/i18n-js-3.0.11.tgz#f9e96bdb641c5b9d6be12759d7c422089987ef02"
+  integrity sha512-v7dG3kYJTQTyox3NqDabPDE/ZotWntyMI9kh4cYi+XlCSnsIR+KBTS2opPyObL8WndnklcLzbNU92FP/mLge3Q==
+
 iconv-lite@0.4.24, iconv-lite@^0.4.17, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -6716,6 +6721,11 @@ lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
+
+lodash.findlast@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.findlast/-/lodash.findlast-4.6.0.tgz#ea8bb78cf2e7e7804fc8aeb7d1953e07fe31fbc8"
+  integrity sha1-6ou3jPLn54BPyK630ZU+B/4x+8g=
 
 lodash.memoize@^4.1.2:
   version "4.1.2"
@@ -8713,6 +8723,20 @@ react-native-gesture-handler@^1.4.1:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
+react-native-i18n@^2.0.15:
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/react-native-i18n/-/react-native-i18n-2.0.15.tgz#09b5a9836116fa7dbd0054c46e2d1014c1ef3c65"
+  integrity sha512-V8VwUP0TLda3oJvgt5tdnFaOV7WXPhTjCTLO7sXI3C2SHggSbD4bCUryMzNJhesimJidH21V2Owvj4zAylHoQQ==
+  dependencies:
+    i18n-js "3.0.11"
+
+react-native-magic-move@^0.6.6:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/react-native-magic-move/-/react-native-magic-move-0.6.6.tgz#e98c4f59ee4d2d6ae9ce087f8a91202347a6985c"
+  integrity sha512-weQamAemHKqbIwPs/LG6WND3b8iMr44gmcYpG3eZZLenDrQRA/8FE8aIy1jqRAcDYNNGOg5WGGq65ufM83pZsw==
+  dependencies:
+    lodash.findlast "^4.6.0"
+
 react-native-offline@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/react-native-offline/-/react-native-offline-5.0.0.tgz#981a73c9f2075ad458cbc38652717a955e960a92"
@@ -8805,6 +8829,11 @@ react-navigation-drawer@~1.4.0:
   integrity sha512-ZyWBozcjB2aZ7vwCALv90cYA2NpDjM+WALaiYRshvPvue8l7cqynePbHK8GhlMGyJDwZqp4MxQmu8u1XAKp3Bw==
   dependencies:
     react-native-tab-view "^1.2.0"
+
+react-navigation-magic-move@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/react-navigation-magic-move/-/react-navigation-magic-move-0.4.1.tgz#20ab093b409ac03b87c5cc6c26be4e45ce8a61b4"
+  integrity sha512-b92wb5n+L/vafUY+Fdhp/0faTRqsq19c/QDpBOyKn/zuqrr/SQpsv6RrZxqBVNPpQVjXhMG3wUL49Sy8qsSEUw==
 
 react-navigation-stack@~1.5.0:
   version "1.5.0"

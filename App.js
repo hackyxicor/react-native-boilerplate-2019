@@ -8,6 +8,9 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { ReduxNetworkProvider } from 'react-native-offline';
 import { AndroidBackHandler } from 'react-navigation-backhandler';
 import { useScreens } from 'react-native-screens';
+import * as MagicMove from 'react-native-magic-move';
+import "react-navigation-magic-move";
+
 
 
 import IndexNavigation, { getPersistenceFunctions } from './src/Navigation/index.navigation';
@@ -35,9 +38,11 @@ class App extends PureComponent {
                 loading={null}
                 persistor={persistor}
               >
-                <IndexNavigation
-                  {...getPersistenceFunctions()}
-                />
+                <MagicMove.Provider>
+                  <IndexNavigation
+                    {...getPersistenceFunctions()}
+                  />
+                </MagicMove.Provider>
               </PersistGate>
             </ReduxNetworkProvider>
           </ReduxProvider>

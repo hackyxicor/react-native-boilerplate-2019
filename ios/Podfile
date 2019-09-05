@@ -31,6 +31,8 @@ target 'boilerplate' do
 
   pod 'RNScreens', :path => '../node_modules/react-native-screens'
 
+  pod 'RNMagicMove', :path => '../node_modules/react-native-magic-move'
+
   target 'boilerplateTests' do
     inherit! :search_paths
     # Pods for testing
