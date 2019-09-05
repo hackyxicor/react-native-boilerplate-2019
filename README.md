@@ -1,4 +1,4 @@
-# Drivezy React Name
+# React Native Boilerplate
 
 ## Structure
 * **Navigation** - React Navigation
