@@ -28,7 +28,7 @@ WRITE SMALL, REUSABLE AND COMPOSABLE FUNCTIONS
 ### Naming convention
 #### Components
 * Location - src/components/
-* Naming - <ComponentName>.component.js
+* Naming - **<ComponentName>**.component.js
 
 #### Utility functions 
 * Location - src/Utils/
