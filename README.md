@@ -1,5 +1,14 @@
 # Drivezy React Name
 
+## Structure
+* **Navigation** - React Navigation
+* **State Management** - Redux
+* **Side Effect Handling** - Redux Saga
+* **Offline Support** - Redux Persist
+* **Internet Connectivity Status** - React Native Offline
+* **Network Call** - Axios
+* **Styling** - React Native Responsive Screen
+
 ## Style Guide
 
 ### Core Ideology
@@ -19,9 +28,10 @@ WRITE SMALL, REUSABLE AND COMPOSABLE FUNCTIONS
 * Location - src/components/
 * Naming - <ComponentName>.component.js
 
-#### Utility functions
+#### Utility functions 
 * Location - src/Utils/
 * Naming - <UtilityName>.util.js
+* **pure functions**
 
 #### Constants
 * Location - src/Constants/
