@@ -28,28 +28,28 @@ WRITE SMALL, REUSABLE AND COMPOSABLE FUNCTIONS
 ### Naming convention
 #### Components
 * Location - src/components/
-* Naming - **<ComponentName>**.component.js
+* Naming - **ComponentName**.component.js
 
 #### Utility functions 
 * Location - src/Utils/
-* Naming - <UtilityName>.util.js
+* Naming - **UtilityName**.util.js
 * ***pure functions only***
 
 #### Constants
 * Location - src/Constants/
-* Naming - <ConstantName>.constant.js
+* Naming - **ConstantName**.constant.js
 
 #### Configs
 * Location - src/Configs/
-* Naming - <ConfigName>.config.js
+* Naming - **ConfigName**.config.js
 
 #### Scene
 * Location - src/Scenes
-* Naming - <SceneName>.scene.js
+* Naming - **SceneName**.scene.js
 
 #### Services
 * Location - src/Services
-* Naming - <ServiceName>.service.js
+* Naming - **ServiceName**.service.js
 
 #### Api
 * Location - src/Api
