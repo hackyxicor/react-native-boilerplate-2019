@@ -6,7 +6,6 @@ import {
 import { Provider as ReduxProvider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { ReduxNetworkProvider } from 'react-native-offline';
-import { AndroidBackHandler } from 'react-navigation-backhandler';
 import { useScreens } from 'react-native-screens';
 import * as MagicMove from 'react-native-magic-move';
 import "react-navigation-magic-move";

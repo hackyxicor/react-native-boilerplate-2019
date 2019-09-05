@@ -1,8 +1,9 @@
 import React, { PureComponent } from "react";
-import { View, Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 import { connect } from 'react-redux';
 import * as MagicMove from 'react-native-magic-move';
 
+import StringConstants from "../../Utils/i18n.util";
 import { RequestLogin } from '../../Actions/user.actions';
 
 class LoginScene extends PureComponent {
@@ -20,13 +21,13 @@ class LoginScene extends PureComponent {
     render() {
         return (
             <MagicMove.Scene>
-                <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-                    <MagicMove.View
+                <View style={{ flex: 1, alignItems: "center" }}>
+                    <MagicMove.Image
+                        style={{ width: 360, height: 300 }}
                         id="myView"
-                    >
-                        <Text>Login Screen</Text>
-                    </MagicMove.View>
-                    <Text>{this.props.user ? this.props.user.display_name : null}</Text>
+                        source={{ uri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAEXRFWHRTb2Z0d2FyZQBwbmdjcnVzaEB1SfMAAABQSURBVGje7dSxCQBACARB+2/ab8BEeQNhFi6WSYzYLYudDQYGBgYGBgYGBgYGBgYGBgZmcvDqYGBgmhivGQYGBgYGBgYGBgYGBgYGBgbmQw+P/eMrC5UTVAAAAABJRU5ErkJggg==' }}
+                    />
+                    <Text>{StringConstants('hello')}</Text>
                 </View>
             </MagicMove.Scene>
         )

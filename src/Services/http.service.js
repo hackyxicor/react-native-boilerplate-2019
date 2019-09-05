@@ -70,7 +70,7 @@ export async function Delete(obj) {
  * @param  {function} resolve
  * @param  {function} reject}
  */
-function ApiCall({ url, method, headers = {r}, body, resolve = defaultResolve, reject = defaultReject, params }) {
+function ApiCall({ url, method, headers = { r }, body, resolve = defaultResolve, reject = defaultReject, params }) {
     const postDict = {
         headers, method
     };
@@ -102,11 +102,11 @@ async function getNecessaryParams(obj) {
     const method = obj.method || 'GET';
     const headers = await createHeader(obj);
 
-    const resolve = obj.hasOwnProperty('resolve') ? obj.resolve : resolve;
-    const reject = obj.hasOwnProperty('reject') ? obj.reject : reject;
+    const resolveFun = obj.hasOwnProperty('resolve') ? obj.resolve : resolve;
+    const rejectFun = obj.hasOwnProperty('reject') ? obj.reject : reject;
 
     const responseObj = {
-        url, method, headers, resolve, reject
+        url, method, headers, resolve: resolveFun, reject: rejectFun
     };
 
     if (obj.body) {

@@ -8,6 +8,8 @@
 * **Internet Connectivity Status** - React Native Offline
 * **Network Call** - Axios
 * **Styling** - React Native Responsive Screen
+* **Multi Language** - React Native Localize
+
 
 ## Style Guide
 
@@ -31,7 +33,7 @@ WRITE SMALL, REUSABLE AND COMPOSABLE FUNCTIONS
 #### Utility functions 
 * Location - src/Utils/
 * Naming - <UtilityName>.util.js
-* **pure functions**
+* ***pure functions only***
 
 #### Constants
 * Location - src/Constants/
